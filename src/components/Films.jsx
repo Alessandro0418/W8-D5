@@ -75,6 +75,7 @@ class Films extends Component {
 
     return (
       <div>
+        {/* Avengers */}
         {avengersFilms.length > 0 ? (
           <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-2 bg-dark pt-4 ps-4 pe-4">
             {avengersFilms.slice(0, 6).map((film) => (
@@ -122,7 +123,7 @@ class Films extends Component {
 
         <h4 className="bg-dark text-white ps-4 pt-4 m-0">Disney</h4>
 
-        {/*disney*/}
+        {/* Disney */}
         {disney.length > 0 ? (
           <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-2 bg-dark pt-4 ps-4 pe-4">
             {disney.slice(0, 6).map((film) => (

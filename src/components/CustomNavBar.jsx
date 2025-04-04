@@ -70,7 +70,7 @@ const CustomNavBar = function () {
                 className="btn btn-secondary btn-sm dropdown-toggle rounded-0"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-                style={{ backgroundColor: "#221f1f" }} // Cambiato il formato per lo stile inline
+                style={{ backgroundColor: "#221f1f" }}
               >
                 Genres
               </button>
